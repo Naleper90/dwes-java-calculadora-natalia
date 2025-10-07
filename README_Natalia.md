@@ -11,7 +11,7 @@ Parece una modificación sencilla pero me ha servido para entender cómo se orga
 ### En el **Evaluator**
 Dentro del bloque `switch` donde se evalúan las funciones matemáticas, añadí un nuevo caso para la tangente:
 
-
+https://github.com/Naleper90/dwes-java-calculadora-natalia/blob/86e58c9377b85964880d39a9b0c75006c4438818/src/main/java/com/example/calc/Evaluator.java#L27-L35
 
 Con este cambio, la calculadora ya reconoce tan(x) y devuelve el valor correcto usando Math.tan() de Java.
 
@@ -20,6 +20,7 @@ No fue necesario modificar el Lexer ni el Parser, ya que ambos reconocen cualqui
 ### En el **Main**
 Actualicé el texto de ayuda (HELP) para que aparezca la nueva función entre las opciones disponibles:
 
+https://github.com/Naleper90/dwes-java-calculadora-natalia/blob/86e58c9377b85964880d39a9b0c75006c4438818/src/main/java/com/example/calc/Main.java#L7-L17
 
 ## Por qué elegí este reto
 Elegí esta mejora porque parecía simple, pero me obligaba a comprender bien la estructura interna del código.
